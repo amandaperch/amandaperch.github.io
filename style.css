@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(154, 140, 152) ;
+}
+#descricao{
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L,sans-serif ;
+}
+p,li{
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.hab1{
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+}
+.hab2{
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hab3{
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hab4{
+  font-style:inherit;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hab5{
+  font-style:initial;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#fotoAmanda{
+  width: 300px;
+  border-radius: 30%
+
+}
