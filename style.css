@@ -1,36 +1,37 @@
 body{
   background-color: rgb(154, 140, 152) ;
 }
-#descricao{
-  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L,sans-serif ;
+
+#cabecalho{
+  display: flex;  
+  justify-content:space-around;
+  
+  }
+  
+  h1{
+    font-size: 50px;
+    display: flex;
+    align-self: center;
+    color: whitesmoke;
+           
+  }
+
+img{
+  width: 200px ;
+  border-radius: 50%;
 }
+
 p,li{
-  font-size: small;
+  font-size:large;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
+  display: flex;
 }
-.hab1{
-  font-style: italic;
-  font-family: 'Courier New', Courier, monospace;
-}
-.hab2{
-  font-style: oblique;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.hab3{
-  font-style: oblique;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.hab4{
-  font-style:inherit;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.hab5{
-  font-style:initial;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-#fotoAmanda{
-  width: 300px;
-  border-radius: 30%
 
-}
+#sobreMim{
+  border: solid black 2px;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L,sans-serif ;
+  font-style: oblique;
+  top: 50%;
+
+  }
