@@ -1,19 +1,19 @@
 body{
   background-color: rgb(154, 140, 152) ;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L,sans-serif;
+  line-height: 30px;
 }
 
 #cabecalho{
   display: flex;  
   justify-content:space-around;
-  
-  }
+ }
   
   h1{
     font-size: 50px;
     display: flex;
     align-self: center;
     color: whitesmoke;
-           
   }
 
 img{
@@ -23,15 +23,64 @@ img{
 
 p,li{
   font-size:large;
-  font-family: Arial, Helvetica, sans-serif;
   color: white;
   display: flex;
+  margin-left: 20px;
 }
 
 #sobreMim{
-  border: solid black 2px;
-  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L,sans-serif ;
   font-style: oblique;
-  top: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  text-align: justify;
+}
 
+h2{
+  font-size:large;
+  font-style: oblique;
+  margin-left: 20px;
+}
+
+#habilidades{
+  display: flex;
+  justify-content:space-around; 
+}
+
+ul li::before {
+  content: "→";
+}
+
+ #hard-skills{
+   width: 500px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ #soft-skills{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  #links{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+  }
+  #links1{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+  }
+  footer{
+    display: flex;
+    justify-content:center;
+    
+  }
+  #final{
+    font-style: oblique;
+    font-size: 60px;
   }
